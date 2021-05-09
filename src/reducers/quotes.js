@@ -29,7 +29,6 @@ export default (state = [], action) => {
           ...state.slice( index + 1 )
         ]
       }
-
       return state
       
     default:
